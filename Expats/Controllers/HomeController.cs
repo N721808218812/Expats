@@ -12,6 +12,7 @@ namespace Expats.Controllers
     {
         public IActionResult Index()
         {
+
             return View();
         }
 

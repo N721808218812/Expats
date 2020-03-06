@@ -3259,3 +3259,11 @@ body.is-menu-visible #menu {
         padding: 0 1.25em;
     }
 }
+
+.style2{
+    display:inline-block !important;
+}
+img{
+    width:300px;
+    height:300px;
+}
