@@ -1,0 +1,97 @@
+﻿@model IEnumerable<Expats.Models.SubCategories>
+@{
+    ViewData["Title"] = "AllSubCategorie";
+}
+
+<!DOCTYPE HTML>
+
+<html>
+<head>
+    <title>AllCategories</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link href="~/css/main.css" rel="stylesheet" />
+    <noscript>
+        <link href="~/css/noscript.css" rel="stylesheet" />
+    </noscript>
+</head>
+<body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Header -->
+        <header id="header">
+            <div class="inner">
+
+
+
+                @*<!-- Nav -->
+                            <nav>
+                                <ul>
+                                    <li><a href="#menu">Menu</a></li>
+                                </ul>
+                            </nav>
+
+                        </div>
+                    </header>
+
+                    <!-- Menu -->
+                    <nav id="menu">
+                        <h2>Menu</h2>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="generic.html">Ipsum veroeros</a></li>
+                            <li><a href="generic.html">Tempus etiam</a></li>
+                            <li><a href="generic.html">Consequat dolor</a></li>
+                            <li><a href="elements.html">Elements</a></li>
+                        </ul>
+                    </nav>*@
+
+
+                <!-- Main -->
+                <div id="main">
+                    <div class="inner">
+                        @*<header>
+                                <h1>
+                                    This is Phantom, a free, fully responsive site<br />
+                                    template designed by <a href="http://html5up.net">HTML5 UP</a>.
+                                </h1>
+                                <p>Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod sit amet nisi euismod sed cursus arcu elementum ipsum arcu vivamus quis venenatis orci lorem ipsum et magna feugiat veroeros aliquam. Lorem ipsum dolor sit amet nullam dolore.</p>
+                            </header>*@
+                        <section class="tiles">
+                            @foreach (var podKategorija in Model)
+                            {
+                                string ime = podKategorija.Name + ".jpg";
+
+                                <article class="style2">
+                                    <span class="image">
+                                        <img src="../../images/SubCategories/@ime" alt="" />
+                                    </span>
+
+                                    <a href="@Url.Action( "AllList", "List", new {id = podKategorija.Id }, null)">
+                                        <h2>@podKategorija.Name</h2>
+
+                                    </a>
+
+
+                                </article>
+
+
+
+                            }
+                        </section>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!-- Scripts -->
+            <script src="~/js/breakpoints.min.js"></script>
+            <script src="~/js/browser.min.js"></script>
+            <script src="~/js/jquery.min.js"></script>
+            <script src="~/js/main.js"></script>
+            <script src="~/js/util.js"></script>
+</body>
+</html>

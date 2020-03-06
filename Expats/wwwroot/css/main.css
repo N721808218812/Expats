@@ -197,6 +197,7 @@ h2, h3, h4, h5, h6 {
     margin: 0 0 2em 0;
     text-transform: uppercase;
     letter-spacing: 0.35em;
+   
 }
 
     h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -3266,4 +3267,7 @@ body.is-menu-visible #menu {
 img{
     width:300px;
     height:300px;
+}
+link{
+    color:red;
 }

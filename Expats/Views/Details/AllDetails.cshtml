@@ -1,0 +1,113 @@
+﻿@model Expats.Models.Details
+
+@{
+    ViewData["Title"] = "AllDetails";
+}
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Details</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link href="~/css/assets/css/main.css" rel="stylesheet" />
+    <noscript>
+        <link href="~/css/assets/css/noscript.css" rel="stylesheet" />
+    </noscript>
+</head>
+<body class="is-preload">
+
+    <!-- Wrapper -->
+    <div id="wrapper" class="fade-in">
+
+        <!-- Intro -->
+        <div id="intro">
+            
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="..." alt="First slide">
+                    </div>
+                    
+                </div>
+            </div>
+
+            <h1>
+                @Html.DisplayFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" }, @readonly = "readonly" })
+            </h1>
+            <p>
+
+            </p>
+            <ul class="actions">
+                <li><a href="#main" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+            </ul>
+        </div>
+
+        <!-- Main -->
+        <div id="main">
+
+            <!-- Posts -->
+            <section class="posts">
+                <article>
+                    <header>
+                        @*<span class="date">April 24, 2017</span>*@
+                        <h2>
+                   @Html.DisplayFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" }, @readonly = "readonly" })
+                        </h2>
+                    </header>
+                    @*<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>*@
+                    @Html.DisplayFor(model => model.Description, new { htmlAttributes = new { @class = "form-control" }, @readonly = "readonly" })
+                    @*<ul class="actions special">
+                        <li><a href="#" class="button">Full Story</a></li>
+                    </ul>*@
+                </article>
+                <article>
+                    <section class="split contact">
+                        <section class="alt">
+                            <h3>Address</h3>
+                            
+                                @Html.DisplayFor(model => model.Address, new { htmlAttributes = new { @class = "form-control" }, @readonly = "readonly" })
+
+                            
+                        </section>
+                        <section>
+                            <h3>Phone</h3>
+                            @Html.DisplayFor(model => model.Phone, new { htmlAttributes = new { @class = "form-control" }, @readonly = "readonly" })
+
+                        </section>
+                        <section>
+                            <h3>Location</h3>
+                           
+
+                        </section>
+                        <section>
+                            <h3>Social</h3>
+                            <ul class="icons alt">
+                                <li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+                                <li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+                                <li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+                                <li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+                            </ul>
+                        </section>
+                    </section>
+                </article>
+
+            </section>
+
+
+
+        </div>
+    </div>
+
+
+        <!-- Scripts -->
+        <script src="~/css/assets/js/breakpoints.min.js"></script>
+        <script src="~/css/assets/js/browser.min.js"></script>
+        <script src="~/css/assets/js/jquery.min.js"></script>
+        <script src="~/css/assets/js/jquery.scrollex.min.js"></script>
+        <script src="~/css/assets/js/jquery.scrolly.min.js"></script>
+        <script src="~/css/assets/js/main.js"></script>
+        <script src="~/css/assets/js/util.js"></script>
+</body>
+</html>
