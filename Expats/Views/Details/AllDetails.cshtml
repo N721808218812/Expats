@@ -71,14 +71,26 @@
 
                             
                         </section>
+
                         <section>
                             <h3>Phone</h3>
                             @Html.DisplayFor(model => model.Phone, new { htmlAttributes = new { @class = "form-control" }, @readonly = "readonly" })
 
                         </section>
+
                         <section>
+                           @{
+                               string ime = "h"+"ttps://maps.google.com/maps?q=" + Model.Address + "&t=&z=13&ie=UTF8&iwloc=&output=embed";
+                                   }
                             <h3>Location</h3>
-                           
+                            <!--Google map-->
+                            <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
+                                <iframe src="@ime" frameborder="0"
+                                        style="border:0"></iframe>
+                            </div>
+
+                            <!--Google Maps-->
+                            string
 
                         </section>
                         <section>
