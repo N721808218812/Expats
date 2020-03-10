@@ -24,11 +24,18 @@ namespace Expats.Controllers
 
         public IActionResult AllDetails(int id)
         {
-          
-
             var rez = entities.Details.Where(s => s.Idlist == id).FirstOrDefault();
 
-            return View(rez);
+
+            if (rez == null)
+            {
+                return View("NoCategories");
+            }
+            else
+            {
+                return View(rez);
+
+            }
         }
     }
 }
