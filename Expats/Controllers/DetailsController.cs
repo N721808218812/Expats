@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Expats.Models;
@@ -23,11 +24,9 @@ namespace Expats.Controllers
 
         public IActionResult AllDetails(int id)
         {
-            
+          
 
             var rez = entities.Details.Where(s => s.Idlist == id).FirstOrDefault();
-
-           
 
             return View(rez);
         }
