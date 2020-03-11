@@ -1,6 +1,5 @@
 @import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
-
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
 /*
 	Spectral by HTML5 UP
 	html5up.net | @ajlkn
@@ -135,15 +134,17 @@ input, select, textarea {
 
 		}
 
-	a {
-		-moz-transition: color 0.2s ease, border-bottom-color 0.2s ease;
-		-webkit-transition: color 0.2s ease, border-bottom-color 0.2s ease;
-		-ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
-		transition: color 0.2s ease, border-bottom-color 0.2s ease;
-		border-bottom: dotted 1px;
-		color: inherit;
-		text-decoration: none;
-	}
+a {
+    font-family: Poppins-Regular;
+    -moz-transition: color 0.2s ease, border-bottom-color 0.2s ease;
+    -webkit-transition: color 0.2s ease, border-bottom-color 0.2s ease;
+    -ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
+    transition: color 0.2s ease, border-bottom-color 0.2s ease;
+    border-bottom: dotted 1px;
+    font-size:115%;
+    color: inherit;
+    text-decoration: none;
+}
 
 		a:hover {
 			border-bottom-color: transparent;

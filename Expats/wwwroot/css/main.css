@@ -138,13 +138,14 @@ body, input, select, textarea {
 }
 
 a {
+    font-family: Poppins-Regular;
     -moz-transition: border-bottom-color 0.2s ease, color 0.2s ease;
     -webkit-transition: border-bottom-color 0.2s ease, color 0.2s ease;
-  
     transition: border-bottom-color 0.2s ease, color 0.2s ease;
     text-decoration: none;
-    font-size:110%;
-    letter-spacing:2px;
+    font-size: 105%;
+    letter-spacing: 2px;
+    font-weight: 300;
     color: #585858;
     border-bottom: dotted 1px rgba(88, 88, 88, 0.5);
 }

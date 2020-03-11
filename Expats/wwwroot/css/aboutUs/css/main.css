@@ -1,4 +1,5 @@
 @import url(fontawesome-all.min.css);
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
 
 /*
 	Hyperspace by HTML5 UP
@@ -147,20 +148,23 @@ input, select, textarea {
 
 		}
 
-	a {
-		-moz-transition: color 0.2s ease, border-bottom-color 0.2s ease;
-		-webkit-transition: color 0.2s ease, border-bottom-color 0.2s ease;
-		-ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
-		transition: color 0.2s ease, border-bottom-color 0.2s ease;
-		border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
-		color: inherit;
-		text-decoration: none;
-	}
+a {
+    font-family: Poppins-Regular;
+    -moz-transition: border-bottom-color 0.2s ease, color 0.2s ease;
+    -webkit-transition: border-bottom-color 0.2s ease, color 0.2s ease;
+    transition: border-bottom-color 0.2s ease, color 0.2s ease;
+    text-decoration: none;
+    font-size: 115%;
+    letter-spacing: 1.4px;
+    font-weight: 300;
+    color: #585858;
+    border-bottom: dotted 1px rgba(88, 88, 88, 0.5);
+}
 
-		a:hover {
-			border-bottom-color: transparent;
-			color: #ffffff;
-		}
+    a:hover {
+        border-bottom-color: transparent;
+        color: white !important;
+    }
 
 	strong, b {
 		color: #ffffff;
