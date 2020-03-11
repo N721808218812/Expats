@@ -35,17 +35,8 @@ namespace Expats.Controllers
         }
 
         public IActionResult AllCategories()
-        {
-           
-            if(All()==null)
-            {
-                return View("NoCategories");
-            }
-            else
-            {
-                return View(All());
-            }
-           
+        {       
+                return View(All());  
         }
     }
 }
