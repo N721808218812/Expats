@@ -61,11 +61,11 @@
                         <section class="tiles">
                             @foreach (var lista in Model)
                             {
-                                string ime = lista.Name + ".jpg";
+                                string ime = lista.Name + ".png";
 
                                 <article class="style2">
                                     <span class="image">
-                                        <img src="../../../images/SubCategories/@ime" alt="" />
+                                        <img src="~/images/list/@ime" alt="" />
                                     </span>
 
                                     <a href="@Url.Action( "AllDetails", "Details", new {id = lista.Id }, null)">
