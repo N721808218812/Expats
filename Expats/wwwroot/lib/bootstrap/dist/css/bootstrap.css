@@ -6754,4 +6754,13 @@ button.close {
     display: none !important;
   }
 }
+.navbar-inverse {
+    background-color: dimgrey !important;
+    border-color: dimgrey !important;
+
+    /*promenjeno*/
+
+}
+
+
 /*# sourceMappingURL=bootstrap.css.map */

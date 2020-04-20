@@ -3610,7 +3610,8 @@ a {
 				-webkit-transition-delay: 0.25s;
 				-ms-transition-delay: 0.25s;
 				transition-delay: 0.25s;
-				background: #fff;
+				background: yellow;
+                /*promenjeno*/
 				content: '';
 				display: block;
 				height: 2px;
@@ -3618,15 +3619,17 @@ a {
 				width: 100%;
 			}
 
-			#banner h2:before {
-				top: 0;
-				left: 0;
-			}
+            #banner h2:before {
+                top: 0;
+                left: 0;
+               
+            }
 
-			#banner h2:after {
-				bottom: 0;
-				right: 0;
-			}
+            #banner h2:after {
+                bottom: 0;
+                right: 0;
+                
+            }
 
 		#banner p {
 			letter-spacing: 0.225em;
@@ -3683,26 +3686,26 @@ a {
 				width: 1.5em;
 			}
 
-		#banner:after {
-			pointer-events: none;
-			-moz-transition: opacity 3s ease-in-out;
-			-webkit-transition: opacity 3s ease-in-out;
-			-ms-transition: opacity 3s ease-in-out;
-			transition: opacity 3s ease-in-out;
-			-moz-transition-delay: 1.25s;
-			-webkit-transition-delay: 1.25s;
-			-ms-transition-delay: 1.25s;
-			transition-delay: 1.25s;
-			content: '';
-			background: #2e3842;
-			display: block;
-			width: 100%;
-			height: 100%;
-			position: absolute;
-			left: 0;
-			top: 0;
-			opacity: 0;
-		}
+        #banner:after {
+            pointer-events: none;
+            -moz-transition: opacity 3s ease-in-out;
+            -webkit-transition: opacity 3s ease-in-out;
+            -ms-transition: opacity 3s ease-in-out;
+            transition: opacity 3s ease-in-out;
+            -moz-transition-delay: 1.25s;
+            -webkit-transition-delay: 1.25s;
+            -ms-transition-delay: 1.25s;
+            transition-delay: 1.25s;
+            content: '';
+            background: #00a2F6;
+            display: block;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            opacity: 0;
+        }
 
 		@media screen and (max-width: 736px) {
 
@@ -3814,10 +3817,10 @@ a {
 
 #main > header {
     padding: 12em 0 10em 0;
-    background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("~/images/categories/food.jpg");
-    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("~/images/categories/food.jpg");
-    background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("~/images/categories/food.jpg");
-    background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("~/images/categories/food.jpg");
+    background-image: -moz-linear-gradient(top, #00a2F6, rgba(0,0,0,0.5)), url("~/images/categories/food.jpg");
+    background-image: -webkit-linear-gradient(top, #00a2F6, rgba(0,0,0,0.5)), url("~/images/categories/food.jpg");
+    background-image: -ms-linear-gradient(top, #00a2F6, rgba(0,0,0,0.5)), url("~/images/categories/food.jpg");
+    background-image: linear-gradient(top, #00a2F6, rgba(0,0,0,0.5)), url("~/images/categories/food.jpg");
     background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
@@ -3964,10 +3967,10 @@ a {
 /* Landing */
 
 body.landing #page-wrapper {
-    background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("~/images/categories/food.jpg");
-    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("~/images/categories/food.jpg");
-    background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("~/images/categories/food.jpg");
-    background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("~/images/categories/food.jpg");
+    background-image: -moz-linear-gradient(top, #00a2F6, rgba(0,0,0,0.5)), url("~/images/categories/food.jpg");
+    background-image: -webkit-linear-gradient(top, #00a2F6, rgba(0,0,0,0.5)), url("~/images/categories/food.jpg");
+    background-image: -ms-linear-gradient(top, #00a2F6, rgba(0,0,0,0.5)), url("~/images/categories/food.jpg");
+    background-image: linear-gradient(top, #00a2F6, rgba(0,0,0,0.5)), url("~/images/categories/food.jpg");
     background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
@@ -3983,17 +3986,17 @@ body.landing #page-wrapper {
 		background: none;
 	}
 
-	body.is-mobile.landing #banner,
-	body.is-mobile.landing .wrapper.style4 {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-position: center center;
-		background-repeat: no-repeat;
-		background-size: cover;
-	}
+body.is-mobile.landing #banner,
+body.is-mobile.landing .wrapper.style4 {
+    background-image: -moz-linear-gradient(top, #00a2F6, rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+    background-image: -webkit-linear-gradient(top, #00a2F6, rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+    background-image: -ms-linear-gradient(top, #00a2F6, rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+    background-image: linear-gradient(top, #00a2F6, rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-	body.is-mobile.landing #footer {
-		background-color: #1d242a;
-	}
+body.is-mobile.landing #footer {
+    background-color: #00a2F6;
+}

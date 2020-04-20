@@ -26,6 +26,8 @@
 // Reset.
 // Based on meyerweb.com/eric/tools/css/reset (v2.0 | 20110126 | License: public domain)
 
+
+
 	html, body, div, span, applet, object,
 	iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 	pre, a, abbr, acronym, address, big, cite,
@@ -44,19 +46,26 @@
 		font: inherit;
 		vertical-align: baseline;
 	}
+    
 
 	article, aside, details, figcaption, figure,
 	footer, header, hgroup, menu, nav, section {
-		display: block;
+		display: block ; 
 	}
 
-	body {
-		line-height: 1;
-	}
+body {
+    line-height: 1;
 
-	ol, ul {
-		list-style:none;
-	}
+
+}
+#banner{
+
+    background-color:red !important;
+}
+
+ol, ul {
+    list-style: none;
+}
 
 	blockquote,	q {
 		quotes: none;
@@ -1920,7 +1929,7 @@
 
 			#banner,
 			.wrapper.style4 {
-				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../../images/banner.jpg")'));
+				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5, rgba(0,0,0,0.5))', 'url("../../images/banner.jpg")'));
 				background-position: center center;
 				background-repeat: no-repeat;
 				background-size: cover;
@@ -1929,5 +1938,7 @@
 			#footer {
 				background-color: darken(_palette(bg), 8);
 			}
+
+
 		}
 	}

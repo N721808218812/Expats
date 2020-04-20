@@ -121,7 +121,7 @@ input, select, textarea {
 		font-size: 16.5pt;
 		font-weight: normal;
 		line-height: 1.75;
-        background-color:white;
+        background-color:#9932cc;
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -3055,7 +3055,7 @@ button,
     justify-content: center;
     width: 50em;
     -ms-flex: 1;
-    background-color: #00aeef;
+    background-color: mediumseagreen;
 }
 
 			.spotlights > section > .content > .inner {
@@ -3325,7 +3325,7 @@ button,
     -ms-transition: opacity 1s ease, -ms-transform 1s ease;
     transition: opacity 1s ease, transform 1s ease;
     opacity: 1.0;
-    background-color:#00aeef;
+    /*background-color:#00aeef;*/
 }
 
 		.wrapper.fade-up.inactive > .inner,
@@ -3883,7 +3883,7 @@ button,
 
 #intro {
     background-attachment: fixed;
-    background-color: #00aeef;
+    background-color: #44c4fa;
     background-size: 100% 100%;
     color: white;
 }
