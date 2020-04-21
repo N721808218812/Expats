@@ -169,7 +169,10 @@ em, i {
 }
 
 p {
-    margin: 0 0 2em 0;
+    margin: 0px 0px 32px;
+    font-size:16px;
+    font-family: 'Copperplate Gothic';
+
 }
 
 h1 {
@@ -2651,6 +2654,7 @@ button,
 
             .tiles article > a > :last-child {
                 margin: 0;
+                font-family:'Copperplate Gothic';
             }
 
             .tiles article > a:hover {
@@ -2788,8 +2792,11 @@ body.is-touch .tiles article .content {
     }
 
         .tiles article {
-            width: 100%;
-            margin: 1.25em 0 0 0;
+            /*width: 100%;
+            margin: 1.25em 0 0 0;*/
+            height:150px;
+
+            /*zapamti*/
         }
 }
 
@@ -3278,4 +3285,18 @@ img{
 }
 link{
     color:red;
+}
+@media screen and (max-width: 480px)   {
+
+    img {
+        height: 150px;
+        width:150px;
+    }
+
+    h2 {
+    
+        font-size:15px;
+    
+    }
+
 }

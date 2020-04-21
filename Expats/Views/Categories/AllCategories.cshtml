@@ -54,7 +54,7 @@
                     <div class="inner">
                         @*<header>
                     <h1>
-                        
+
                     </h1>
                     <p>Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod sit amet nisi euismod sed cursus arcu elementum ipsum arcu vivamus quis venenatis orci lorem ipsum et magna feugiat veroeros aliquam. Lorem ipsum dolor sit amet nullam dolore.</p>
                 </header>*@
@@ -62,29 +62,33 @@
                             @foreach (var kategorija in Model)
                             {
                                 string ime = kategorija.Name + ".jpg";
-                                
-                            <article class="style1">
-                                <span class="image">
-                                    <img src="../images/categories/@ime" alt="" />
-                                </span>
 
-                            
-                                
-                                <a href="@Url.Action( "AllSubCategories", "SubCategories", new {id = kategorija.Id }, null)">
-                                    <h2>@kategorija.Name</h2>
-
-                                </a>
+                                <article class="style1">
+                                    <span class="image">
+                                        <img src="../images/categories/@ime" alt="" />
+                                    </span>
 
 
-                            </article>
 
-                             
+                                    <a href="@Url.Action( "AllSubCategories", "SubCategories", new {id = kategorija.Id }, null)">
+                                        <h2>@kategorija.Name</h2>
+
+                                    </a>
+
+
+                                </article>
+
+
 
                             }
                         </section>
 
                     </div>
                 </div>
+                <hr />
+                <footer style="margin:0px 0px 32px; font-family:Arial, Helvetica, sans-serif; font-size:16px;">
+                    <p>&copy; 2020 - Expats</p>
+                </footer>
 
 
             </div>

@@ -19,8 +19,8 @@
 
     <!-- Wrapper -->
     <div id="wrapper" class="fade-in">
-        @{ 
-            string naziv = Model.Name+".jpg";
+        @{
+            string naziv = Model.Name + ".jpg";
         }
         <!-- Intro -->
         <div id="intro">
@@ -45,7 +45,7 @@
                     <header>
                         @*<span class="date">April 24, 2017</span>*@
                         <h2>
-                   @Html.DisplayFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" }, @readonly = "readonly" })
+                            @Html.DisplayFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" }, @readonly = "readonly" })
                         </h2>
                     </header>
                     @*<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>*@
@@ -58,10 +58,10 @@
                     <section class="split contact">
                         <section class="alt">
                             <h3>Address</h3>
-                            
-                                @Html.DisplayFor(model => model.Address, new { htmlAttributes = new { @class = "form-control" }, @readonly = "readonly" })
 
-                            
+                            @Html.DisplayFor(model => model.Address, new { htmlAttributes = new { @class = "form-control" }, @readonly = "readonly" })
+
+
                         </section>
 
                         <section>
@@ -71,9 +71,9 @@
                         </section>
 
                         <section>
-                           @{
-                               string ime = "h"+"ttps://maps.google.com/maps?q=" + Model.Address + "&t=&z=13&ie=UTF8&iwloc=&output=embed";
-                                   }
+                            @{
+                                string ime = "h" + "ttps://maps.google.com/maps?q=" + Model.Address + "&t=&z=13&ie=UTF8&iwloc=&output=embed";
+                            }
                             <h3>Location</h3>
                             <!--Google map-->
                             <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 200px">
@@ -82,7 +82,7 @@
                             </div>
 
                             <!--Google Maps-->
- 
+
                         </section>
                         @*<section>
                             <h3>Social</h3>
@@ -101,6 +101,10 @@
 
 
         </div>
+        <hr />
+        <footer style="margin:0px 0px 32px !important; font-family:Arial, Helvetica, sans-serif !important; font-size:16px !important;">
+            <p>&copy; 2020 - Expats</p>
+        </footer>
     </div>
 
 

@@ -1,3 +1,8 @@
+@font-face {
+	font-family: futura medium bt;
+	src: url('../../../../../../futura/futura medium bt.ttf') format('truetype');
+}
+
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
@@ -6760,7 +6765,12 @@ button.close {
 
     /*promenjeno*/
 
+
 }
+    
+    .navbar-inverse .navbar-nav > li > a {
 
+        font-family:'Copperplate Gothic' !important;
+    }
 
-/*# sourceMappingURL=bootstrap.css.map */
+        /*# sourceMappingURL=bootstrap.css.map */

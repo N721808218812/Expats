@@ -23,7 +23,9 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+    font-family:'Copperplate Gothic';
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -184,6 +186,7 @@ a {
 		font-weight: bold;
 		line-height: 1.5;
 		margin: 0 0 0.5em 0;
+        font-family:'Copperplate Gothic';
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -3890,6 +3893,7 @@ button,
 
 		#intro p {
 			font-size: 1.25em;
+            font-family:'Copperplate Gothic';
 		}
 
 			@media screen and (max-width: 980px) {
