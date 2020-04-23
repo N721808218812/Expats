@@ -6760,12 +6760,9 @@ button.close {
   }
 }
 .navbar-inverse {
-    background-color: dimgrey !important;
-    border-color: dimgrey !important;
-
+    background-color: #585858 !important;
+    border-color: #585858 !important;
     /*promenjeno*/
-
-
 }
     
     .navbar-inverse .navbar-nav > li > a {
