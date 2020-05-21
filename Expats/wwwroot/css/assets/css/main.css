@@ -99,7 +99,8 @@ input, select, textarea {
 	}
 
 body {
-    background-color: #ff829e;
+    background-color: #ffffff;
+    /*promenjeno*/
     ;
 }
 
@@ -117,7 +118,7 @@ body {
 /* Type */
 
 	html {
-		font-size: 16pt;
+		font-size: 19.6px;
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -145,7 +146,7 @@ body {
 		}
 
 	body {
-		color: #212931;
+		color: #585858;
 	}
 
 	body, input, select, textarea {
@@ -177,7 +178,7 @@ body {
 	}
 
 p {
-    color: deeppink;
+    color: #585858;
     text-align: justify;
     margin: 0 0 2rem 0;
     font-family: 'Copperplate Gothic';
@@ -297,11 +298,13 @@ h1, h2, h3, h4, h5, h6 {
 	a {
 		color: #212931;
 		border-bottom-color: rgba(33, 41, 49, 0.5);
+        font-size: 19.6px;
+     /*promenjeno*/
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #18bfef !important;
+			
 		}
 
 	strong, b {
@@ -309,7 +312,7 @@ h1, h2, h3, h4, h5, h6 {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: deeppink;
+		color: #585858;
 	}
 
 	blockquote {
@@ -2134,6 +2137,7 @@ h1, h2, h3, h4, h5, h6 {
 				margin-right: 0;
 				text-align: center;
 				text-indent: 0;
+                background-color:#585858;
 			}
 
 		input[type="submit"].fit,
@@ -2218,8 +2222,8 @@ h1, h2, h3, h4, h5, h6 {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			box-shadow: inset 0 0 0 2px #18bfef;
-			color: #18bfef !important;
+			box-shadow: inset 0 0 0 2px #ffffff;
+			color: #ffffff !important;
 		}
 
 		input[type="submit"].primary,
@@ -3228,7 +3232,8 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     z-index: 1;
     overflow: hidden;
-    background-color: #fed882;
+    background-color: #ffffff;
+    /*promenjeno*/
 }
 
     #wrapper > .bg {
@@ -3237,7 +3242,8 @@ h1, h2, h3, h4, h5, h6 {
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: #ff829e;
+        background-color: #ffffff;
+        /*promenjeno*/
         
         /*background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg.jpg");*/
         background-size: auto, auto, 100% auto;
@@ -3263,7 +3269,8 @@ h1, h2, h3, h4, h5, h6 {
             -webkit-transition-delay: 0.75s;
             -ms-transition-delay: 0.75s;
             transition-delay: 0.75s;
-            background: #fed882;
+            background: #ffffff;
+            /*promenjeno*/
             
             content: '';
             display: block;
@@ -3316,7 +3323,7 @@ h1, h2, h3, h4, h5, h6 {
 		cursor: default;
 		text-align: center;
 		z-index: 1;
-		min-height: 100vh;
+		/*min-height: 100vh;*/
 	}
 
 		#intro input, #intro select, #intro textarea {
@@ -3338,7 +3345,7 @@ h1, h2, h3, h4, h5, h6 {
 		}
 
 		#intro h1, #intro h2, #intro h3, #intro h4, #intro h5, #intro h6 {
-			color: #ffffff;
+			color: dimgrey;
 		}
 
 		#intro blockquote {
@@ -3458,8 +3465,8 @@ h1, h2, h3, h4, h5, h6 {
 		@media screen and (max-width: 980px) {
 
 			#intro {
-				padding: 4rem 4rem 2rem 4rem ;
-				min-height: 90vh;
+				/*padding: 4rem 4rem 2rem 4rem ;
+				min-height: 90vh;*/
 			}
 
 				#intro p br {
@@ -3475,8 +3482,8 @@ h1, h2, h3, h4, h5, h6 {
 		@media screen and (max-width: 736px) {
 
 			#intro {
-				padding: 3rem 2rem 1rem 2rem ;
-				min-height: 80vh;
+				/*padding: 3rem 2rem 1rem 2rem ;
+				min-height: 80vh;*/
 			}
 
 				#intro h1 {
@@ -3869,12 +3876,12 @@ h1, h2, h3, h4, h5, h6 {
             }
 
             #main > .posts > article {
-                border-color: #ff829e;
+                border-color: #fff;
                 border-left-width: 2px;
                 border-style: solid;
                 border-top-width: 2px;
                 text-align: center;
-                background-color: #fed881;
+                background-color: #fee12B;
             }
 
 				#main > .posts > article > :last-child {
@@ -4695,3 +4702,23 @@ h1, h2, h3, h4, h5, h6 {
 		}
 
 	}
+
+@media screen and (max-width: 736px) {
+
+    img {
+    
+    width:350px !important;
+    height:300px !important;
+
+    }
+
+}
+
+
+
+/*@media screen and (max-width: 320px) {
+    .z-depth-1-half map-container #map-container-google-1 {
+    width:250px;
+    
+    }
+}*/
