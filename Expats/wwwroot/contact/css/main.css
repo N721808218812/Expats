@@ -185,21 +185,21 @@ iframe {
     font-family: 'Copperplate Gothic';
     font-size: 18px;
     line-height: 1.2;
-    color: white;
+    color: #000;;
 }
 
 .txt2 {
     font-family: 'Copperplate Gothic';
     font-size: 15px;
     line-height: 1.6;
-    color: white; /* Boja teksta na slici*/
+    color: #000; /* Boja teksta na slici*/
 }
 
 .txt3 {
     font-family: 'Copperplate Gothic';
     font-size: 15px;
     line-height: 1.6;
-    color: white; /*Boja teksta na slici*/
+    color: #000; /*Boja teksta na slici*/
 }
 
 /*==================================================================
